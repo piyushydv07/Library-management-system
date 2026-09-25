@@ -1,0 +1,42 @@
+{
+    "books": [
+        {
+            "id": "B-XMU50",
+            "title": "GOT",
+            "author": "Piyush",
+            "total_copies": 30,
+            "available_copies": 30,
+            "added_on": "2026-08-07 15:25:32"
+        },
+        {
+            "id": "B-7ZHSZ",
+            "title": "Breaking bed",
+            "author": "sam",
+            "total_copies": 33,
+            "available_copies": 33,
+            "added_on": "2026-08-07 15:26:45"
+        },
+        {
+            "id": "B-ZWWXE",
+            "title": "ZERO TO ONE",
+            "author": "PETER THIEL",
+            "total_copies": 10,
+            "available_copies": 10,
+            "added_on": "2026-09-25 23:23:43"
+        }
+    ],
+    "members": [
+        {
+            "id": "M-79BDR",
+            "name": "PIYUSH",
+            "email": "PIYUSH@gmail.com",
+            "borowed": []
+        },
+        {
+            "id": "M-BM1BV",
+            "name": "Piyush yadav",
+            "email": "piyushyaduvanshi0007@gmail.com",
+            "borrowed": []
+        }
+    ]
+}

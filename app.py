@@ -155,7 +155,7 @@ def list_members():
             with col2:
                 st.write(f"**Email:** {member['email']}")
 
-            if member["borrowed"]:
+            if member.get("borrowed", []):
                 st.write("**Currently Borrowed Books:**")
 
                 for book in member["borrowed"]:
@@ -245,7 +245,7 @@ def return_book():
     member_options = {
         f"{m['name']} ({m['id']})": m["id"]
         for m in data["members"]
-        if m["borrowed"]
+        if m.get("borrowed", [])
     }
 
     if not member_options:
